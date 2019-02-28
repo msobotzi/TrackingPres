@@ -43,12 +43,12 @@
 \begin{frame}{Motivation}
 
 \begin{itemize}	
-	\item I want to study the tracking efficiency of Bhabha processes
-	\item For this I first take a look at electrons which are only detected by the ECL
-	\item They are therefor labeled and treated as gammas
-	\item In the next step I only take information from the ECL and count the electrons there without the information from the tracking detectors
-	\item Afterwards the number of tracks in the tracking detectors is count to get the efficiency
-	\item This idea comes from some plots presented by Sam in previous  \href{https://confluence.desy.de/display/BI/ECL+Meetings?preview=/84320165/109161400/SCunliffe181123-ECL.pdf}{tracking and ECL} meeting. 
+	\item I would like to estimate the tracking efficiency Bhabha events
+	\item One possible way to do it is to select the electrons using only information coming from the ECL (they are therefore labeled and treated as gammas)
+	
+	\item Once selected a pure electron sample, one can than look to the Tracks related to ECLClusters
+	\item The ratio between the ECLClusters with a Track associated and all the ECLClusters will provide an estimation of tracking efficiency
+	\item This idea comes from some plots presented by Sam in previous  \href{https://confluence.desy.de/display/BI/ECL+Meetings?preview=/84320165/109161400/SCunliffe181123-ECL.pdf}{tracking and ECL} meetings. 
 
 \end{itemize}
 \end{frame}
@@ -78,10 +78,10 @@
 \begin{frame}{Reproducing Plots}
 	
 	\begin{itemize}
-		\item Sam used Prod6 on all of his plots, and since I try to reproduce his plots I will use it as well
+		\item The plots in the following slides are produced using prod6 (this is because as a starting point I tried to reproduce Sam's plots)
 		\item Sam used all Prod6 data. I am only using the following: /hsm/belle2/bdata/Data/release-02-01-00/DB00000438 /prod00000006/e0003/4S/r02*/all/mdst.sub00/*.root
 		\item Sam's plots are on the left.	
-		\item Three lines. The middle one is $\gamma \gamma$ the two others are $\textrm{ee}$
+		\item Three lines. The middle one is $\textrm{ee} \rightarrow \gamma \gamma$ the two others are $\textrm{ee} \rightarrow \gamma \gamma$
 \end{itemize}
 	
 	
@@ -134,8 +134,8 @@
 
 \begin{frame}{Reproducing Plots}
 \begin{itemize} 
-	\item The middle peak is $\gamma \gamma$ the two other peaks are $\textrm{ee}$
-	\item My $\gamma \gamma$ peak is way higher (Maybe there are some cuts that I am not considering?)
+	\item The middle peak is $\textrm{ee} \rightarrow \gamma \gamma$, the two other peaks are $\textrm{ee} \rightarrow \gamma \gamma$
+	\item My $\textrm{ee} \rightarrow \gamma \gamma$ peak is way higher (Maybe there are some cuts that I am not considering?)
 
 \end{itemize}
 \begin{figure}
@@ -161,7 +161,7 @@
 
 \begin{frame}{Some more plots}
 
-Here is no Mass cut on the vpho
+Here the invariant mass of the virtual photon (vpho) is plotted 
 
 	
 	\begin{figure}
@@ -174,7 +174,8 @@ Here is no Mass cut on the vpho
 
 
 \begin{frame}{Some more plots}
-	
+
+	Here the invariant mass of the virtual photon is plotted against the difference between b2bpredicted and reconstructed $\Phi $ angel
 	\begin{figure}
 		\includegraphics[width=8cm]{Plots/PhiM.png}
 	\end{figure}
@@ -183,7 +184,7 @@ Here is no Mass cut on the vpho
 \end{frame}
 
 \begin{frame}{Some more plots}
-	
+	Here the invariant mass of the virtual photon is plotted against the number of reconstructed Tracks.
 	\begin{figure}
 		\includegraphics[width=8cm]{Plots/nTrM}
 	\end{figure}
@@ -194,7 +195,7 @@ Here is no Mass cut on the vpho
 	\begin{itemize}
 		\item Investigate the best cuts for our purposes and apply them
 		\item Select only the $\textrm{ee} $ candidates and study the tracking efficiency using that sample
-		\item Producing the same plots shown here using MC sample (from a preliminary study using MC10 it looks like very few events survive applying the descibed selection)
+		\item Produce the same plots shown here using MC sample (from a preliminary study using MC10 it looks like very few events survive applying the described selection)
 	\end{itemize}
 \end{frame}
 
