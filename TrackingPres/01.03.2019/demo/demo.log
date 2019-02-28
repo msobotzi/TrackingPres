@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  28 FEB 2019 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.11.21)  28 FEB 2019 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,159 +1183,164 @@ Overfull \vbox (13.79993pt too high) detected at line 25
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 43.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 55.
+LaTeX Font Info:    No file OMScmss.fd. on input line 43.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 55.
+(Font)              for symbol `textbullet' on input line 43.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 43.
+
+[2
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 55.
+line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
+[3
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 55.
-
-[2
-
-] <Plots/prodRecSam.jpeg, id=32, 2409.0pt x 1806.75pt>
+] <Plots/prodRecSam.jpeg, id=37, 2409.0pt x 1806.75pt>
 File: Plots/prodRecSam.jpeg Graphic file (type jpg)
 
 <use Plots/prodRecSam.jpeg>
-Package pdftex.def Info: Plots/prodRecSam.jpeg used on input line 86.
-(pdftex.def)             Requested size: 153.6447pt x 115.2098pt.
+Package pdftex.def Info: Plots/prodRecSam.jpeg used on input line 95.
+(pdftex.def)             Requested size: 142.26378pt x 106.69106pt.
 
-<Plots/clusterb2b.png, id=33, 1019.81pt x 815.045pt>
+<Plots/clusterb2b.png, id=38, 1019.81pt x 815.045pt>
 File: Plots/clusterb2b.png Graphic file (type png)
 
 <use Plots/clusterb2b.png>
-Package pdftex.def Info: Plots/clusterb2b.png used on input line 86.
+Package pdftex.def Info: Plots/clusterb2b.png used on input line 95.
 (pdftex.def)             Requested size: 142.26378pt x 113.69511pt.
- [3
 
- <./Plots/prodRecSam.jpeg> <./Plots/clusterb2b.png>] <Plots/ZommedSam.jpeg, id=
-46, 2409.0pt x 1806.75pt>
+Overfull \vbox (13.07495pt too high) detected at line 95
+ []
+
+[4
+
+ <./Plots/prodRecSam.jpeg> <./Plots/clusterb2b.png>]
+<Plots/ZommedSam.jpeg, id=51, 2409.0pt x 1806.75pt>
 File: Plots/ZommedSam.jpeg Graphic file (type jpg)
-
-<use Plots/ZommedSam.jpeg>
-Package pdftex.def Info: Plots/ZommedSam.jpeg used on input line 111.
-(pdftex.def)             Requested size: 153.6447pt x 115.2098pt.
+ <use Plots/ZommedSam.jpeg>
+Package pdftex.def Info: Plots/ZommedSam.jpeg used on input line 120.
+(pdftex.def)             Requested size: 142.26378pt x 106.69106pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:sub1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \end{frame}
+l.120 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sub@fig:sub1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \end{frame}
-                  <Plots/zommedb2b.pdf, id=47, 569.12625pt x 454.69875pt>
-File: Plots/zommedb2b.pdf Graphic file (type pdf)
+l.120 \end{frame}
+                  <Plots/zommedb2b.png, id=52, 1019.81pt x 815.045pt>
+File: Plots/zommedb2b.png Graphic file (type png)
 
-<use Plots/zommedb2b.pdf>
-Package pdftex.def Info: Plots/zommedb2b.pdf used on input line 111.
-(pdftex.def)             Requested size: 142.26378pt x 113.66052pt.
+<use Plots/zommedb2b.png>
+Package pdftex.def Info: Plots/zommedb2b.png used on input line 120.
+(pdftex.def)             Requested size: 142.26378pt x 113.69511pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:sub2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \end{frame}
+l.120 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sub@fig:sub2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \end{frame}
+l.120 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{fig:test}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \end{frame}
-                  [4
+l.120 \end{frame}
+                  [5
 
- <./Plots/ZommedSam.jpeg> <./Plots/zommedb2b.pdf, page is rotated 90 degrees>] 
-<Plots/deltaPhiSam.jpeg, id=96, 1606.0pt x 1204.5pt>
+ <./Plots/ZommedSam.jpeg> <./Plots/zommedb2b.png>]
+<Plots/deltaPhiSam.jpeg, id=58, 1606.0pt x 1204.5pt>
 File: Plots/deltaPhiSam.jpeg Graphic file (type jpg)
 
 <use Plots/deltaPhiSam.jpeg>
-Package pdftex.def Info: Plots/deltaPhiSam.jpeg used on input line 138.
-(pdftex.def)             Requested size: 153.6447pt x 115.219pt.
+Package pdftex.def Info: Plots/deltaPhiSam.jpeg used on input line 147.
+(pdftex.def)             Requested size: 142.26378pt x 106.69106pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:sub1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \end{frame}
+l.147 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sub@fig:sub1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \end{frame}
-                  <Plots/DeltaPhi.pdf, id=97, 569.12625pt x 454.69875pt>
+l.147 \end{frame}
+                  <Plots/DeltaPhi.pdf, id=59, 569.12625pt x 454.69875pt>
 File: Plots/DeltaPhi.pdf Graphic file (type pdf)
 
 <use Plots/DeltaPhi.pdf>
-Package pdftex.def Info: Plots/DeltaPhi.pdf used on input line 138.
+Package pdftex.def Info: Plots/DeltaPhi.pdf used on input line 147.
 (pdftex.def)             Requested size: 142.26378pt x 113.66052pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:sub2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \end{frame}
+l.147 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{sub@fig:sub2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \end{frame}
+l.147 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{fig:test}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \end{frame}
-                  [5
+l.147 \end{frame}
+                  [6
 
  <./Plots/deltaPhiSam.jpeg> <./Plots/DeltaPhi.pdf, page is rotated 90 degrees>]
- <Plots/vphoM.pdf, id=146, 569.12625pt x 454.69875pt>
+ <Plots/vphoM.pdf, id=108, 569.12625pt x 454.69875pt>
 File: Plots/vphoM.pdf Graphic file (type pdf)
 
 <use Plots/vphoM.pdf>
-Package pdftex.def Info: Plots/vphoM.pdf used on input line 151.
+Package pdftex.def Info: Plots/vphoM.pdf used on input line 160.
 (pdftex.def)             Requested size: 227.62204pt x 181.85545pt.
- [6
-
- <./Plots/vphoM.pdf, page is rotated 90 degrees>]
-<Plots/PhiM.png, id=195, 1019.81pt x 815.045pt>
-File: Plots/PhiM.png Graphic file (type png)
- <use Plots/PhiM.png>
-Package pdftex.def Info: Plots/PhiM.png used on input line 162.
-(pdftex.def)             Requested size: 227.62204pt x 181.90968pt.
  [7
 
- <./Plots/PhiM.png>] <Plots/nTrM.pdf, id=202, 569.12625pt x 454.69875pt>
-File: Plots/nTrM.pdf Graphic file (type pdf)
-
-<use Plots/nTrM.pdf>
-Package pdftex.def Info: Plots/nTrM.pdf used on input line 170.
-(pdftex.def)             Requested size: 227.62204pt x 181.85545pt.
+ <./Plots/vphoM.pdf, page is rotated 90 degrees>]
+<Plots/PhiM.png, id=158, 1019.81pt x 815.045pt>
+File: Plots/PhiM.png Graphic file (type png)
+ <use Plots/PhiM.png>
+Package pdftex.def Info: Plots/PhiM.png used on input line 171.
+(pdftex.def)             Requested size: 227.62204pt x 181.90968pt.
  [8
 
- <./Plots/nTrM.pdf, page is rotated 90 degrees>]
-[9
+ <./Plots/PhiM.png>] <Plots/nTrM.png, id=164, 1019.81pt x 815.045pt>
+File: Plots/nTrM.png Graphic file (type png)
+
+<use Plots/nTrM.png>
+Package pdftex.def Info: Plots/nTrM.png used on input line 179.
+(pdftex.def)             Requested size: 227.62204pt x 181.90968pt.
+ [9
+
+ <./Plots/nTrM.png>] [10
 
 ]
 \tf@nav=\write6
@@ -1347,11 +1352,11 @@ Package pdftex.def Info: Plots/nTrM.pdf used on input line 170.
 \tf@snm=\write8
 \openout8 = `demo.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
  (./demo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `demo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1371,13 +1376,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 26 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31590 strings out of 494852
- 761698 string characters out of 6177656
- 956288 words of memory out of 5000000
- 34224 multiletter control sequences out of 15000+600000
+ 31594 strings out of 494852
+ 761733 string characters out of 6177656
+ 955288 words of memory out of 5000000
+ 34226 multiletter control sequences out of 15000+600000
  13140 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 71i,13n,98p,1814b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,98p,1814b,671s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
@@ -1388,10 +1393,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf
 onts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmsy9.pfb>
-Output written on demo.pdf (9 pages, 1482016 bytes).
+Output written on demo.pdf (10 pages, 1144289 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
