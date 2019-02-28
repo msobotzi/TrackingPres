@@ -11,6 +11,10 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{xspace}
+\usepackage{hyperref,xcolor}
+
+\usepackage{makeidx}
+\definecolor{winered}{rgb}{0.5,0,0}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
 \title{Bhabha Tracking Efficiencies}
@@ -19,6 +23,13 @@
 \author{Martin Sobotzik}
 \institute{Johannes Gutenberg Universit\"at Mainz}
 % \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+
+\definecolor{darkblue}{rgb}{0,0,.5}
+\hypersetup{pdftex=true, colorlinks=true, breaklinks=true, linkcolor=darkblue, menucolor=darkblue, pagecolor=darkblue, urlcolor=darkblue}
+
+
+%citecolor={winered} %Gives errors when turned on
+%allcolors={winered} %Gives errors when turned on
 
 \begin{document}
 
@@ -35,9 +46,9 @@
 	\item I want to study the tracking efficiency of Bhabha processes
 	\item For this I first take a look at electrons which are only detected by the ECL
 	\item They are therefor labeled and treated as gammas
-	\item In the next step I only take information from the ECL and count the electron there without the information from the tracking detectors
+	\item In the next step I only take information from the ECL and count the electrons there without the information from the tracking detectors
 	\item Afterwards the number of tracks in the tracking detectors is count to get the efficiency
-	
+	\item This idea comes from some plots presented by Sam in previous  \href{https://confluence.desy.de/display/BI/ECL+Meetings?preview=/84320165/109161400/SCunliffe181123-ECL.pdf}{tracking and ECL} meeting. 
 
 \end{itemize}
 \end{frame}
@@ -45,7 +56,8 @@
 \begin{frame}{Getting Started}
 	
 \begin{itemize} 
-	\item Filling the gamma lists:
+	\item All cuts were taken from Sam's studies:
+	
 	
 	\begin{itemize}
 		\item gamma:probe '$(\textrm{E} > 0.1 )$'
@@ -53,7 +65,7 @@
 		\item vpho:cand 'reconstructed from gamma:probe and gamma:tag'
 	\end{itemize}
 
-	\item All cuts were taken from Sam's studies:
+	
 		\begin{itemize}
 			\item $0.296706 < \theta < 2.61799 \rightarrow$ It has to hit the ECL
 			\item $\textrm{nCleanedTracks}[ \textrm{abs}(\textrm{dz}) < 2.0 \textrm{ and } \textrm{abs}(\textrm{dr}) < 0.5 \textrm{ and nCDCHits} > 0 \textrm{ and pt } > 0.15] < 1 \rightarrow $ bad quality hits 
