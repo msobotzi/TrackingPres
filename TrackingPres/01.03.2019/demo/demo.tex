@@ -46,7 +46,7 @@
 	\item I would like to estimate the tracking efficiency Bhabha events
 	\item One possible way to do it is to select the electrons using only information coming from the ECL (they are therefore labeled and treated as gammas)
 	
-	\item Once selected a pure electron sample, one can than look to the Tracks related to ECLClusters
+	\item Once selected a pure electron sample, one can than look at the Tracks related to ECLClusters
 	\item The ratio between the ECLClusters with a Track associated and all the ECLClusters will provide an estimation of tracking efficiency
 	\item This idea comes from some plots presented by Sam in previous  \href{https://confluence.desy.de/display/BI/ECL+Meetings?preview=/84320165/109161400/SCunliffe181123-ECL.pdf}{tracking and ECL} meetings. 
 
@@ -81,7 +81,7 @@
 		\item The plots in the following slides are produced using prod6 (this is because as a starting point I tried to reproduce Sam's plots)
 		\item Sam used all Prod6 data. I am only using the following: /hsm/belle2/bdata/Data/release-02-01-00/DB00000438 /prod00000006/e0003/4S/r02*/all/mdst.sub00/*.root
 		\item Sam's plots are on the left.	
-		\item Three lines. The middle one is $\textrm{ee} \rightarrow \gamma \gamma$ the two others are $\textrm{ee} \rightarrow \gamma \gamma$
+		\item Three lines. The middle one is $\textrm{ee} \rightarrow \gamma \gamma$ the two others are $\textrm{ee} \rightarrow \textrm{ee}$
 \end{itemize}
 	
 	
@@ -134,7 +134,7 @@
 
 \begin{frame}{Reproducing Plots}
 \begin{itemize} 
-	\item The middle peak is $\textrm{ee} \rightarrow \gamma \gamma$, the two other peaks are $\textrm{ee} \rightarrow \gamma \gamma$
+	\item The middle peak is $\textrm{ee} \rightarrow \gamma \gamma$, the two other peaks are $\textrm{ee} \rightarrow \textrm{ee}$
 	\item My $\textrm{ee} \rightarrow \gamma \gamma$ peak is way higher (Maybe there are some cuts that I am not considering?)
 
 \end{itemize}
@@ -175,7 +175,7 @@ Here the invariant mass of the virtual photon (vpho) is plotted
 
 \begin{frame}{Some more plots}
 
-	Here the invariant mass of the virtual photon is plotted against the difference between b2bpredicted and reconstructed $\Phi $ angel
+	Here the invariant mass of the virtual photon is plotted against the difference between the b2bpredicted and the reconstructed $\Phi $ angel
 	\begin{figure}
 		\includegraphics[width=8cm]{Plots/PhiM.png}
 	\end{figure}
@@ -194,7 +194,7 @@ Here the invariant mass of the virtual photon (vpho) is plotted
 \begin{frame}{The next Steps}
 	\begin{itemize}
 		\item Investigate the best cuts for our purposes and apply them
-		\item Select only the $\textrm{ee} $ candidates and study the tracking efficiency using that sample
+		\item Select only the $\textrm{ee} \rightarrow \textrm{ee}$ candidates and study the tracking efficiency using that sample
 		\item Produce the same plots shown here using MC sample (from a preliminary study using MC10 it looks like very few events survive applying the described selection)
 	\end{itemize}
 \end{frame}
