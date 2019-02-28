@@ -1,8 +1,0 @@
-\beamer@sectionintoc {1}{Introduction \& Installation}{3}{0}{1}
-\beamer@sectionintoc {2}{Theme features}{6}{0}{2}
-\beamer@subsectionintoc {2}{1}{Title formats}{7}{0}{2}
-\beamer@subsectionintoc {2}{2}{Elements}{9}{0}{2}
-\beamer@subsectionintoc {2}{3}{A2 Logo}{16}{0}{2}
-\beamer@subsectionintoc {2}{4}{Fancy frames}{17}{0}{2}
-\beamer@sectionintoc {3}{more Features which are included in this demo.tex}{19}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{22}{0}{4}
