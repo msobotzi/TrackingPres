@@ -1,0 +1,87 @@
+\documentclass[10pt]{beamer}
+
+\usetheme{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xspace}
+\usepackage{hyperref,xcolor}
+\usepackage{textpos}
+
+\usepackage{makeidx}
+\definecolor{winered}{rgb}{0.5,0,0}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+
+\defbeamertemplate*{background canvas}{bg}
+{%
+	\color{white}\vrule width\paperwidth height\paperheight% added bg color
+}
+
+
+
+
+
+\title{Bhabha Tracking Efficiencies}
+%\subtitle{A modern beamer theme}
+\date{12.04.2019}
+\author{Martin Sobotzik}
+\institute{Johannes Gutenberg Universit\"at Mainz}
+% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+
+\definecolor{darkblue}{rgb}{0,0,.5}
+
+
+
+%citecolor={winered} %Gives errors when turned on
+%allcolors={winered} %Gives errors when turned on
+
+\begin{document}
+
+
+%
+%\setbeamertemplate{frame footer}{}
+
+\begin{frame}[noframenumbering]
+	\begin{textblock*}{0.5\textwidth}(6.5cm,-3.75cm)
+	\includegraphics<1>[width=5cm]{Plots/b2b_2}
+	
+	\end{textblock*}
+	\begin{textblock*}{0.6\textwidth}(-0.5cm,-3.75cm)
+	
+
+		Reconstruct $\textrm{ee} \rightarrow \textrm{ee}$ using only ECL information to calculate tracking efficiency
+		\begin{equation*}
+			\epsilon = \frac{\textrm{\#Events with exactly 2 reconstructed tracks}}{\textrm{\#Events with 1 or more reconstructed tracks}}
+		\end{equation*}
+
+Selection:
+		\begin{itemize}	
+			\item Only select events with exactly 2 clusters in the ECL with at least $3.5\,\textrm{GeV}$
+			
+			
+		\end{itemize}
+	\end{textblock*}
+			
+	\begin{textblock*}{1\textwidth}(-0.5cm,0.75cm)
+		\begin{itemize}
+		
+			\item nTracks in an event $< 7$
+			\item Total Energy in the ECL $< 15\,\textrm{GeV}$
+			\item Reconstructed invariant Mass $8\,\textrm{GeV} \leq \textrm{M} \leq 12 \,\textrm{GeV}$
+			\item Use b2b-variable to neglect $\textrm{ee} \rightarrow \gamma \gamma$ events
+		\end{itemize}
+	{\large $\rightarrow$ Only one $\textrm{ee} \rightarrow \textrm{ee}$ candidate per event is reconstructed!}
+	
+{\large First angular dependent tracking efficiency will follow soon!}
+	\end{textblock*}
+
+
+\end{frame}
+\end{document}
