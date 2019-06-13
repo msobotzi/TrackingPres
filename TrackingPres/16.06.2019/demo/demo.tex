@@ -49,37 +49,32 @@
 %\setbeamertemplate{frame footer}{}
 
 \begin{frame}[noframenumbering]
-	\begin{textblock*}{0.5\textwidth}(6.7cm,-3.5cm)
+
+	\begin{textblock*}{0.5\textwidth}(6.7cm,-3.cm)
 	\includegraphics<1>[width=5cm]{Plots/b2b_2}
 	
 	\end{textblock*}
-	\begin{textblock*}{0.6\textwidth}(-0.5cm,-3.5cm)
+	\begin{textblock*}{0.6\textwidth}(0cm,-2.5cm)
 	
 
-		Reconstruct $\textrm{ee} \rightarrow \textrm{ee}$ using only ECL information to calculate tracking efficiency
-		\begin{equation*}
+\large		Reconstruct $\textrm{ee} \rightarrow \textrm{ee}$ using only ECL information to calculate tracking efficiency
+	\normalsize	
+	\begin{equation*}
 			\epsilon = \frac{\textrm{\#Events with exactly 2 reconstructed tracks}}{\textrm{\#Events with 1 or more reconstructed tracks}}
 		\end{equation*}
+\large
+\end{textblock*}
+\begin{textblock*}{1\textwidth}(0cm,1.cm)
 
-Selection:
-		\begin{itemize}	
-			\item Only Events with exactly 2 clusters in the ECL with at least $3.5\,\textrm{GeV}$
-			
-			
-		\end{itemize}
+
+\large After some cuts on event information and kinematic cuts (e.g. cut on the b2b-variable to neglect $\textrm{ee} \rightarrow \gamma \gamma$ events), I reconstruct only one candidate per event 
+
+Unfortunately the selection on the best candidate took some time, but I expect to present some tracking efficiencies soon
+ 
 	\end{textblock*}
 			
-	\begin{textblock*}{1\textwidth}(-0.5cm,0.5cm)
-		\begin{itemize}
+	\begin{textblock*}{1\textwidth}(-0.5cm,1.5cm)
 		
-			\item nTracks in an event $< 7$
-			\item Total Energy in the ECL $< 15\,\textrm{GeV}$
-			\item Reconstructed invariant Mass $8\,\textrm{GeV} \leq \textrm{M} \leq 12 \,\textrm{GeV}$
-			\item Use b2b-variable to neglect $\textrm{ee} \rightarrow \gamma \gamma$ events
-		\end{itemize}
-	$\rightarrow$ Only one $\textrm{ee} \rightarrow \textrm{ee}$ candidate per event is reconstructed!
-	
-{\large First angular dependent tracking efficiency will follow soon!}
 	\end{textblock*}
 
 
